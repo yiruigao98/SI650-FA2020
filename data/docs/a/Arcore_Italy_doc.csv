@@ -1,0 +1,12 @@
+ARCore is a software development kit developed by Google that allows for augmented reality applications to be built.
+ARCore uses three key technologies to integrate virtual content with the real world as seen through your phone's camera:
+Six degrees of freedom allows the phone to understand and track its position relative to the world.
+Environmental understanding allows the phone to detect the size and location of flat horizontal surfaces like the ground or a coffee table.
+Light estimation allows the phone to estimate the environment's current lighting conditions.ARCore has been integrated into a multitude of devices.
+
+
+== References ==
+
+
+== External links ==
+Official website

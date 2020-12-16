@@ -28,21 +28,22 @@ for ind1, doc in enumerate(sample_docs):
     tokenized_corpus.append(tokens)
 
 
-test_queries = [["shopping"], ["music"], ["desert"],["snow"],["beer"],["harbor"],["seafood"]]
-test_queries = [["beach"], ["football"], ["forest"], ["island"]]
+top_10_test_queries = [["waterfall"], ["silk"], ["desert"],["volcano"],["beer"],["coconut"],["seafood"]]
+top_100_test_queries = [["football"], ["castle"], ["shopping"], ['monument'], ["forest"]]
 
-bm25 = BM25Plus(tokenized_corpus, b = 0.5)
+bm25 = BM25L(tokenized_corpus, b = 0.5)
 
-for q in test_queries:
+for q in top_100_test_queries:
     print("------------------{}------------------".format(q[0]))
     
     tokenized_query = q
     doc_scores = bm25.get_scores(tokenized_query)
-    top_n = bm25.get_top_n(tokenized_query, city_country_names, n = 50)
-    # print([(pair[0].encode('utf-8'), pair[1].encode('utf-8'))for pair in top_n])
+    top_n = bm25.get_top_n(tokenized_query, city_country_names, n = 100)
+
+    print([(pair[0].encode('utf-8'), pair[1].encode('utf-8'))for pair in top_n])
 
     # NDCG evaluations:
-    relevance_score = [1 for i in range(50)]
+    relevance_score = [1 for i in range(100)]
 
     annotate_result = pd.read_csv('../data/annotate_result.csv', encoding='utf-8', header=0)
 
@@ -55,6 +56,7 @@ for q in test_queries:
     
     # Releveance scores in output order 
     relevance_score = np.asarray([relevance_score]) 
+    
 
     print(ndcg_score( true_relevance, relevance_score))
 

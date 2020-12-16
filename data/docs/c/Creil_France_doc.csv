@@ -1,0 +1,644 @@
+Raman scattering or the Raman effect  is the inelastic scattering of photons by matter, meaning that there is an exchange of energy and a change in the light's direction. Typically this involves vibrational energy being gained by a molecule as incident photons from a visible laser are shifted to lower energy. This is called normal Stokes Raman scattering. The effect is exploited by chemists and physicists to gain information about materials for a variety of purposes by performing various forms of Raman spectroscopy. Many other variants of Raman spectroscopy allow rotational energy to be examined (if gas samples are used) and electronic energy levels may be examined if an X-ray source is used in addition to other possibilities. More complex techniques involving pulsed lasers, multiple laser beams and so on are known.
+Light has a certain probability of being scattered by a material. When photons are scattered, most of them are elastically scattered (Rayleigh scattering), such that the scattered photons have the same energy (frequency, wavelength and color) as the incident photons but different direction. Rayleigh scattering usually has an intensity in the range 0.1% to 0.01% relative to that of a radiation source. An even smaller fraction of the scattered photons (approximately 1 in 10 million) can be scattered inelastically, with the scattered photons having an energy different (usually lower) from those of the incident photons—these are Raman scattered photons. Because of conservation of energy, the material either gains or loses energy in the process.
+Rayleigh scattering was discovered and explained in the 19th century. The Raman effect is named after Indian scientist C. V. Raman, who discovered it in 1928 with assistance from his student K. S. Krishnan. Raman was awarded the Nobel prize in Physics in 1930 for his discovery. The effect had been predicted theoretically by Adolf Smekal in 1923.
+
+
+== History ==
+The elastic light scattering phenomena called Rayleigh scattering, in which light retains its energy, was described in the 19th century. The intensity of Rayleigh scattering is about 10−3 to 10−4 compared to the intensity of the exciting source. In 1908, another form of elastic scattering, called Mie scattering was discovered.
+The inelastic scattering of light was predicted by Adolf Smekal in 1923 and in older German-language literature it has been referred to as the Smekal-Raman-Effekt. In 1922, Indian physicist C. V. Raman published his work on the "Molecular Diffraction of Light", the first of a series of investigations with his collaborators that ultimately led to his discovery (on 28 February 1928) of the radiation effect that bears his name. The Raman effect was first reported by Raman and his coworker K. S. Krishnan, and independently by Grigory Landsberg and Leonid Mandelstam, in Moscow on 21 February 1928 (one week earlier than Raman and Krishnan). In the former Soviet Union, Raman's contribution was always disputed; thus in Russian scientific literature the effect is usually referred to as "combination scattering" or "combinatory scattering". Raman received the Nobel Prize in 1930 for his work on the scattering of light.In 1998 the Raman effect was designated a National Historic Chemical Landmark by the American Chemical Society in recognition of its significance as a tool for analyzing the composition of liquids, gases, and solids.
+
+
+== Instrumentation ==
+
+Modern Raman spectroscopy nearly always involves the use of lasers as an exciting light source. Because lasers were not available until more than three decades after the discovery of the effect, Raman and Krishnan used a mercury lamp and photographic plates to record spectra. Early spectra took hours or even days to acquire due to weak light sources, poor sensitivity of the detectors and the weak Raman scattering cross-sections of most materials. The most common modern detectors are charge-coupled devices (CCDs). Photodiode arrays and photomultiplier tubes were common prior to the adoption of CCDs.
+
+
+== Theory ==
+The following focuses on the theory of normal (non-resonant, spontaneous, vibrational) Raman scattering of light by discrete molecules. X-ray Raman spectroscopy is conceptually similar but involves excitation of electronic, rather than vibrational, energy levels.
+
+
+=== Molecular vibrations ===
+
+Raman scattering generally gives information about vibrations within a molecule. In the case of gases, information about rotational energy can also be gleaned. For solids, phonon modes may also be observed. The basics of infrared absorption regarding molecular vibrations apply to Raman scattering although the selection rules are different.
+
+
+==== Degrees of freedom ====
+
+For any given molecule, there are a total of 3N degrees of freedom, where N is the number of atoms. This number arises from the ability of each atom in a molecule to move in three dimensions. When dealing with molecules, it is more common to consider the movement of the molecule as a whole. Consequently, the 3N degrees of freedom are partitioned into molecular translational, rotational, and vibrational motion. Three of the degrees of freedom correspond to translational motion of the molecule as a whole (along each of the three spatial dimensions). Similarly, three degrees of freedom correspond to rotations of the molecule about the 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  , 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  , and 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  -axes. Linear molecules only have two rotations because rotations along the bond axis do not change the positions of the atoms in the molecule. The remaining degrees of freedom correspond to molecular vibrational modes. These modes include stretching and bending motions of the chemical bonds of the molecule. For a linear molecule, the number of vibrational modes is 3N-5, whereas for a non-linear molecule the number of vibrational modes is 3N-6.
+
+
+==== Vibrational energy ====
+
+Molecular vibrational energy is known to be quantized and can be modeled using the quantum harmonic oscillator (QHO) approximation or a Dunham expansion when anharmonicity is important. 
+The vibrational energy levels according to the QHO are
+
+  
+    
+      
+        
+          E
+          
+            n
+          
+        
+        =
+        h
+        
+          (
+          
+            n
+            +
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        ν
+        =
+        h
+        
+          (
+          
+            n
+            +
+            
+              
+                1
+                2
+              
+            
+          
+          )
+        
+        
+          
+            1
+            
+              2
+              π
+            
+          
+        
+        
+          
+            
+              k
+              m
+            
+          
+        
+        
+      
+    
+    {\displaystyle E_{n}=h\left(n+{1 \over 2}\right)\nu =h\left(n+{1 \over 2}\right){1 \over {2\pi }}{\sqrt {k \over m}}\!}
+  ,where n is a quantum number. Since the selection rules for Raman and infrared absorption generally dictate that only fundamental vibrations are observed, infrared excitation or Stokes Raman excitation results in an energy change of 
+  
+    
+      
+        E
+        =
+        h
+        ν
+        =
+        
+          
+            h
+            
+              2
+              π
+            
+          
+        
+        
+          
+            
+              k
+              m
+            
+          
+        
+      
+    
+    {\displaystyle E=h\nu ={h \over {2\pi }}{\sqrt {k \over m}}}
+  
+The energy range for vibrations is in the range of approximately 5 to 3500 cm−1. The fraction of molecules occupying a given vibrational mode at a given temperature follows a Boltzmann distribution. A molecule can be excited to a higher vibrational mode through the direct absorption of a photon of the appropriate energy, which falls in the terahertz or infrared range. This forms the basis of infrared spectroscopy. Alternatively, the same vibrational excitation can be produced by an inelastic scattering process. This is called Stokes Raman scattering, by analogy with the Stokes shift in fluorescence discovered by George Stokes in 1852, with light emission at longer wavelength (now known to correspond to lower energy) than the absorbed incident light. Conceptually similar effects can be caused by neutrons or electrons rather than light. An increase in photon energy which leaves the molecule in a lower vibrational energy state is called anti-Stokes scattering.
+
+
+=== Raman scattering ===
+Raman scattering is conceptualized as involving a virtual electronic energy level which corresponds to the energy of the exciting laser photons. Absorption of a photon excites the molecule to the imaginary state and re-emission leads to Raman or Rayleigh scattering. In all three cases the final state has the same electronic energy as the starting state but is higher in vibrational energy in the case of Stokes Raman scattering, lower in the case of anti-Stokes Raman scattering or the same in the case of Rayleigh scattering. Normally this is thought of in terms of wavenumbers, where 
+  
+    
+      
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle {\tilde {\nu }}_{0}}
+   is the wavenumber of the laser and 
+  
+    
+      
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            M
+          
+        
+      
+    
+    {\displaystyle {\tilde {\nu }}_{M}}
+   is the wavenumber of the vibrational transition. Thus Stokes scattering gives a wavenumber of 
+  
+    
+      
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            0
+          
+        
+        −
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            M
+          
+        
+      
+    
+    {\displaystyle {\tilde {\nu }}_{0}-{\tilde {\nu }}_{M}}
+   while 
+  
+    
+      
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            0
+          
+        
+        +
+        
+          
+            
+              
+                ν
+                ~
+              
+            
+          
+          
+            M
+          
+        
+      
+    
+    {\textstyle {\tilde {\nu }}_{0}+{\tilde {\nu }}_{M}}
+   is given for anti-Stokes. When the exciting laser energy corresponds to an actual electronic excitation of the molecule then the resonance Raman effect occurs, but that is beyond the scope of this article.
+A classical physics based model is able to account for Raman scattering and predicts an increase in the intensity which scales with the fourth-power of the light frequency. Light scattering by a molecule is associated with oscillations of an induced electric dipole. The oscillating electric field component of electromagnetic radiation may bring about an induced dipole in a molecule which follows the alternating electric field which is modulated by the molecular vibrations. Oscillations at the external field frequency are therefore observed along with beat frequencies resulting from the external field and normal mode vibrations.
+
+The spectrum of the scattered photons is termed the Raman spectrum. It shows the intensity of the scattered light as a function of its frequency difference Δν to the incident photons, more commonly called a Raman shift. The locations of corresponding Stokes and anti-Stokes peaks form a symmetric pattern around the RayleighΔν=0 line. The frequency shifts are symmetric because they correspond to the energy difference between the same upper and lower resonant states. The intensities of the pairs of features will typically differ, though. They depend on the populations of the initial states of the material, which in turn depend on the temperature. In thermodynamic equilibrium, the lower state will be more populated than the upper state. Therefore, the rate of transitions from the more populated lower state to the upper state (Stokes transitions) will be higher than in the opposite direction (anti-Stokes transitions). Correspondingly, Stokes scattering peaks are stronger than anti-Stokes scattering peaks. Their ratio depends on the temperature, and can therefore be exploited to measure it:
+
+  
+    
+      
+        
+          
+            
+              I
+              
+                Stokes
+              
+            
+            
+              I
+              
+                anti-Stokes
+              
+            
+          
+        
+        =
+        
+          
+            
+              (
+              
+                
+                  
+                    
+                      ν
+                      ~
+                    
+                  
+                
+                
+                  0
+                
+              
+              −
+              
+                
+                  
+                    
+                      ν
+                      ~
+                    
+                  
+                
+                
+                  M
+                
+              
+              
+                )
+                
+                  4
+                
+              
+            
+            
+              (
+              
+                
+                  
+                    
+                      ν
+                      ~
+                    
+                  
+                
+                
+                  0
+                
+              
+              +
+              
+                
+                  
+                    
+                      ν
+                      ~
+                    
+                  
+                
+                
+                  M
+                
+              
+              
+                )
+                
+                  4
+                
+              
+            
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            
+              
+                h
+                c
+                
+                
+                  
+                    
+                      
+                        ν
+                        ~
+                      
+                    
+                  
+                  
+                    M
+                  
+                
+              
+              
+                
+                  k
+                  
+                    B
+                  
+                
+                T
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\frac {I_{\text{Stokes}}}{I_{\text{anti-Stokes}}}}={\frac {({\tilde {\nu }}_{0}-{\tilde {\nu }}_{M})^{4}}{({\tilde {\nu }}_{0}+{\tilde {\nu }}_{M})^{4}}}\exp \left({\frac {hc\,{\tilde {\nu }}_{M}}{k_{B}T}}\right)}
+  
+
+
+=== Selection rules ===
+In contrast to IR spectroscopy, where there is a requirement for a change in dipole moment for vibrational excitation to take place, Raman scattering requires a change in polarizability. A Raman transition from one state to another is allowed only if the molecular polarizability of those states is different. For a vibration, this means that the derivative of the polarizability with respect to the normal coordinate associated to the vibration is non-zero: 
+  
+    
+      
+        
+          
+            
+              ∂
+              α
+            
+            
+              ∂
+              Q
+            
+          
+        
+        ≠
+        0
+      
+    
+    {\displaystyle {\frac {\partial \alpha }{\partial Q}}\neq 0}
+  . In general, a normal mode is Raman active if it transforms with the same symmetry of the quadratic forms 
+  
+    
+      
+        (
+        
+          x
+          
+            2
+          
+        
+        ,
+        
+          y
+          
+            2
+          
+        
+        ,
+        
+          z
+          
+            2
+          
+        
+        ,
+        x
+        y
+        ,
+        x
+        z
+        ,
+        y
+        z
+        )
+      
+    
+    {\displaystyle (x^{2},y^{2},z^{2},xy,xz,yz)}
+  , which can be verified from the character table of the molecule's point group. As with IR spectroscopy, only fundamental excitations (
+  
+    
+      
+        Δ
+        ν
+        =
+        ±
+        1
+      
+    
+    {\displaystyle \Delta \nu =\pm 1}
+  ) are allowed according to the QHO. There are however many cases where overtones are observed. The rule of mutual exclusion, which states that vibrational modes cannot be both IR and Raman active, applies to certain molecules.
+The specific selection rules state that the allowed rotational transitions are 
+  
+    
+      
+        Δ
+        J
+        =
+        ±
+        2
+      
+    
+    {\displaystyle \Delta J=\pm 2}
+  , where 
+  
+    
+      
+        J
+      
+    
+    {\displaystyle J}
+   is the rotational state. This generally is only relevant to molecules in the gas phase where the Raman linewidths are small enough for rotational transitions to be resolved.
+A selection rule relevant only to ordered solid materials states that only phonons with zero phase angle can be observed by IR and Raman, except when phonon confinement is manifest.
+
+
+=== Symmetry and polarization ===
+
+Monitoring the polarization of the scattered photons is useful for understanding the connections between molecular symmetry and Raman activity which may assist in assigning peaks in Raman spectra. Light polarized in a single direction only gives access to some Raman–active modes, but rotating the polarization gives access to other modes. Each mode is separated according to its symmetry.The symmetry of a vibrational mode is deduced from the depolarization ratio ρ, which is the ratio of the Raman scattering with polarization orthogonal to the incident laser and the Raman scattering with the same polarization as the incident laser: 
+  
+    
+      
+        ρ
+        =
+        
+          
+            
+              I
+              
+                r
+              
+            
+            
+              I
+              
+                u
+              
+            
+          
+        
+      
+    
+    {\displaystyle \rho ={\frac {I_{r}}{I_{u}}}}
+   Here 
+  
+    
+      
+        
+          I
+          
+            r
+          
+        
+      
+    
+    {\displaystyle I_{r}}
+   is the intensity of Raman scattering when the analyzer is rotated 90 degrees with respect to the incident light's polarization axis, and 
+  
+    
+      
+        
+          I
+          
+            u
+          
+        
+      
+    
+    {\displaystyle I_{u}}
+   the intensity of Raman scattering when the analyzer is aligned with the polarization of the incident laser. When polarized light interacts with a molecule, it distorts the molecule which induces an equal and opposite effect in the plane-wave, causing it to be rotated by the difference between the orientation of the molecule and the angle of polarization of the light wave. If 
+  
+    
+      
+        ρ
+        ≥
+        
+          
+            3
+            4
+          
+        
+      
+    
+    {\displaystyle \rho \geq {\frac {3}{4}}}
+  , then the vibrations at that frequency are depolarized; meaning they are not totally symmetric.
+
+
+== Stimulated Raman scattering and Raman amplification ==
+
+The Raman-scattering process as described above takes place spontaneously; i.e., in random time intervals, one of the many incoming photons is scattered by the material. This process is thus called spontaneous Raman scattering.
+On the other hand, stimulated Raman scattering can take place when some Stokes photons have previously been generated by spontaneous Raman scattering (and somehow forced to remain in the material), or when deliberately injecting Stokes photons ("signal light") together with the original light ("pump light"). In that case, the total Raman-scattering rate is increased beyond that of spontaneous Raman scattering: pump photons are converted more rapidly into additional Stokes photons. The more Stokes photons that are already present, the faster more of them are added. Effectively, this amplifies the Stokes light in the presence of the pump light, which is exploited in Raman amplifiers and Raman lasers.
+Stimulated Raman scattering is a nonlinear optical effect. It can be described using a third-order nonlinear susceptibility 
+  
+    
+      
+        
+          χ
+          
+            (
+            3
+            )
+          
+        
+      
+    
+    {\displaystyle \chi ^{(3)}}
+  .
+
+
+=== Requirement for space-coherence ===
+Suppose that the distance between two points A and B of an exciting beam is x. Generally, as the exciting frequency is not equal to the scattered Raman frequency, the corresponding relative wavelengths λ and λ' are not equal. Thus, a phase-shift Θ = 2πx(1/λ − 1/λ') appears. For Θ = π, the scattered amplitudes are opposite, so that the Raman scattered beam remains weak.
+
+A crossing of the beams may limit the path x.Several tricks may be used to get a larger amplitude:
+
+In an optically anisotropic crystal, a light ray may have two modes of propagation with different polarizations and different indices of refraction. If energy may be transferred between these modes by a quadrupolar (Raman) resonance, phases remain coherent along the whole path, transfer of energy may be large. It is an Optical parametric generation.
+Light may be pulsed, so that beats do not appear. In Impulsive Stimulated Raman Scattering (ISRS), the length of the pulses must be shorter than all relevant time constants. Interference of Raman and incident lights is too short to allow beats, so that it produces a frequency shift roughly, in best conditions, inversely proportional to the cube of the pulse length.In labs, femtosecond laser pulses must be used because the ISRS becomes very weak if the pulses are too long. Thus ISRS cannot be observed using nanosecond pulses making ordinary time-incoherent light.
+
+
+== Inverse Raman effect ==
+The inverse Raman effect is a form of Raman scattering first noted by W. J. Jones and B.P. Stoicheff. In some circumstances, Stokes scattering can exceed anti-Stokes scattering; in these cases the continuum (on leaving the material) is observed to have an absorption line (a dip in intensity) at νL+νM.  This phenomenon is referred to as the inverse Raman effect; the application of the phenomenon is referred to as inverse Raman spectroscopy, and a record of the continuum is referred to as an inverse Raman spectrum.
+In the original description of the inverse Raman effect, the authors discuss both absorption from a continuum of higher frequencies and absorption from a continuum of lower frequencies. They note that absorption from a continuum of lower frequencies will not be observed if the Raman frequency of the material is vibrational in origin and if the material is in thermal equilibrium.
+
+
+=== Supercontinuum generation ===
+For high-intensity continuous wave (CW) lasers, stimulated Raman scattering can be used to produce a broad bandwidth supercontinuum. This process can also be seen as a special case of four-wave mixing, wherein the frequencies of the two incident photons are equal and the emitted spectra are found in two bands separated from the incident light by the phonon energies. The initial Raman spectrum is built up with spontaneous emission and is amplified later on. At high pumping levels in long fibers, higher-order Raman spectra can be generated by using the Raman spectrum as a new starting point, thereby building a chain of new spectra with decreasing amplitude. The disadvantage of intrinsic noise due to the initial spontaneous process can be overcome by seeding a spectrum at the beginning, or even using a feedback loop as in a resonator to stabilize the process. Since this technology easily fits into the fast evolving fiber laser field and there is demand for transversal coherent high-intensity light sources (i.e., broadband telecommunication, imaging applications), Raman amplification and spectrum generation might be widely used in the near-future.
+
+
+== Applications ==
+
+Raman spectroscopy employs the Raman effect for substances analysis. The spectrum of the Raman-scattered light depends on the molecular constituents present and their state, allowing the spectrum to be used for material identification and analysis. Raman spectroscopy is used to analyze a wide range of materials, including gases, liquids, and solids. Highly complex materials such as biological organisms and human tissue can also be analyzed by Raman spectroscopy.
+For solid materials, Raman scattering is used as a tool to detect high-frequency phonon and magnon excitations.
+Raman lidar is used in atmospheric physics to measure the atmospheric extinction coefficient and the water vapour vertical distribution.
+Stimulated Raman transitions are also widely used for manipulating a trapped ion's energy levels, and thus basis qubit states.
+Raman spectroscopy can be used to determine the force constant and bond length for molecules that do not have an infrared absorption spectrum.
+Raman amplification is used in optical amplifiers.
+The Raman effect is also involved in producing the appearance of the blue sky (see Rayleigh Scattering: 'Rayleigh scattering of molecular nitrogen and oxygen in the atmosphere includes elastic scattering as well as the inelastic contribution from rotational Raman scattering in air').
+Raman spectroscopy has been used to chemically image small molecules, such as nucleic acids, in biological systems by a vibrational tag.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Klingshirn, Claus F. (2012). Semiconductor Optics. Graduate Texts in Physics (4 ed.). Springer. pp. 285–288. ISBN 978-364228362-8.
+
+
+== External links ==
+Raman Effect - Classical Theory
+Explanation from Hyperphysics in Astronomy section of gsu.edu
+Raman Spectroscopy – Tutorial at Kosi.com
+Prof. R. W. Wood Demonstrating the New "Raman Effect" in Physics (Scientific American, December 1930)
+A short description of spontaneous Raman scattering
+Raman Effect: fingerprinting the universe

@@ -1,0 +1,270 @@
+2 (two) is a number, numeral, and glyph. It is the natural number following 1 and preceding 3. It is the smallest and only even prime number. Because it forms the basis of a duality, it has religious and spiritual significance in many cultures.
+
+
+== Evolution of the glyph ==
+
+The glyph used in the modern Western world to represent the number 2 traces its roots back to the Indic Brahmic script, where "2" was written as two horizontal lines. The modern Chinese and Japanese languages still use this method. The Gupta script rotated the two lines 45 degrees, making them diagonal. The top line was sometimes also shortened and had its bottom end curve towards the center of the bottom line. In the Nagari script, the top line was written more like a curve connecting to the bottom line. In the Arabic Ghubar writing, the bottom line was completely vertical, and the glyph looked like a dotless closing question mark. Restoring the bottom line to its original horizontal position, but keeping the top line as a curve that connects to the bottom line leads to our modern glyph.In fonts with text figures, 2 usually is of x-height, for example, .
+
+
+== In mathematics ==
+An integer is called even if it is divisible by 2. For integers written in a numeral system based on an even number, such as decimal, hexadecimal, or in any other base that is even, divisibility by 2 is easily tested by merely looking at the last digit. If it is even, then the whole number is even. In particular, when written in the decimal system, all multiples of 2 will end in 0, 2, 4, 6, or 8.
+Two is the smallest prime number, and the only even prime number (for this reason it is sometimes called "the oddest prime"). The next prime is three. Two and three are the only two consecutive prime numbers. 2 is the first Sophie Germain prime, the first factorial prime, the first Lucas prime, and the first Ramanujan prime.Two is the third (or fourth) Fibonacci number.
+Two is the base of the binary system, the numeral system with the fewest tokens allowing to denote a natural number n substantially more concise (log2 n  tokens), compared to a direct representation by the corresponding count of a single token (n tokens). This binary number system is used extensively in computing.
+For any number x:
+
+x + x = 2 · x addition to multiplication
+x · x = x2 multiplication to exponentiation
+xx = x↑↑2 exponentiation to tetrationExtending this sequence of operations by introducing the notion of hyperoperations, here denoted by "hyper(a,b,c)" with a and c being the first and second operand, and b being the level in the above sketched sequence of operations, the following holds in general:
+
+hyper(x,n,x) = hyper(x,(n + 1),2).Two has therefore the unique property that 2 + 2 = 2 · 2 = 22 = 2↑↑2 = 2↑↑↑2 = ..., disregarding the level of the hyperoperation, here denoted by Knuth's up-arrow notation. The number of up-arrows refers to the level of the hyperoperation.
+Two is the only number x such that the sum of the reciprocals of the powers of x equals itself. In symbols
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              2
+              
+                k
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            1
+            2
+          
+        
+        +
+        
+          
+            1
+            4
+          
+        
+        +
+        
+          
+            1
+            8
+          
+        
+        +
+        
+          
+            1
+            16
+          
+        
+        +
+        ⋯
+        =
+        2.
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }{\frac {1}{2^{k}}}=1+{\frac {1}{2}}+{\frac {1}{4}}+{\frac {1}{8}}+{\frac {1}{16}}+\cdots =2.}
+  This comes from the fact that:
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            1
+            
+              n
+              
+                k
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            1
+            
+              n
+              −
+              1
+            
+          
+        
+        
+        
+          
+            for all
+          
+        
+        
+        n
+        ∈
+        
+          R
+        
+        >
+        1.
+      
+    
+    {\displaystyle \sum _{k=0}^{\infty }{\frac {1}{n^{k}}}=1+{\frac {1}{n-1}}\quad {\mbox{for all}}\quad n\in \mathbb {R} >1.}
+  Powers of two are central to the concept of Mersenne primes, and important to computer science. Two is the first Mersenne prime exponent.
+Taking the square root of a number is such a common mathematical operation, that the spot on the root sign where the exponent would normally be written for cubic and other roots, may simply be left blank for square roots, as it is tacitly understood.
+The square root of 2 was the first known irrational number.
+The smallest field has two elements.
+In a set-theoretical construction of the natural numbers, 2 is identified with the set {{∅},∅}. This latter set is important in category theory: it is a subobject classifier in the category of sets.
+Two also has the unique property such that
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          2
+          
+            k
+          
+        
+        =
+        
+          2
+          
+            n
+          
+        
+        −
+        1
+      
+    
+    {\displaystyle \sum _{k=0}^{n-1}2^{k}=2^{n}-1}
+  and also
+
+  
+    
+      
+        
+          ∑
+          
+            k
+            =
+            a
+          
+          
+            n
+            −
+            1
+          
+        
+        
+          2
+          
+            k
+          
+        
+        =
+        
+          2
+          
+            n
+          
+        
+        −
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            a
+            −
+            1
+          
+        
+        
+          2
+          
+            k
+          
+        
+        −
+        1
+      
+    
+    {\displaystyle \sum _{k=a}^{n-1}2^{k}=2^{n}-\sum _{k=0}^{a-1}2^{k}-1}
+  for a not equal to zero
+In any n-dimensional, euclidean space two distinct points determine a line.
+For any polyhedron homeomorphic to a sphere, the Euler characteristic is χ = V − E + F = 2, where V is the number of vertices, E is the number of edges, and F is the number of faces.
+
+
+== In science ==
+The number of polynucleotide strands in a DNA double helix.
+The first magic number.
+The atomic number of helium.
+The atomic mass of deuterium, an isotope of hydrogen.
+The ASCII code of "Start of Text".
+2 Pallas, a large asteroid in the main belt and the second asteroid ever to be discovered.
+The Roman numeral II (usually) stands for the second-discovered satellite of a planet or minor planet (e.g. Pluto II or (87) Sylvia II Remus).
+A binary star is a stellar system consisting of two stars orbiting around their center of mass.
+The number of brain and cerebellar hemispheres.
+
+
+== Other ==
+
+In pre-1972 Indonesian and Malay orthography, 2 was shorthand for the reduplication that forms plurals: orang "person", orang-orang or orang2 "people".
+In Astrology, Taurus is the second sign of the Zodiac.
+
+
+== See also ==
+List of highways numbered 2
+
+
+== References ==
+
+
+== External links ==
+
+Prime curiosities: 2

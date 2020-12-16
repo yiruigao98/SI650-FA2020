@@ -18,13 +18,13 @@ with open('../data/sample_queries.txt', 'r', encoding='utf-8') as f:
     sample_queries = f.read().splitlines()
 
 # For sampling use: get the sampling documents
-doc_filenames = listdir('../data/sample_docs2')
+doc_filenames = listdir('../data/sample_docs3')
 sample_docs = []
 city_country_names = []
 for i in range(len(doc_filenames)):
     line = doc_filenames[i].split('_')
     city_country_names.append((line[0], line[1]))
-    with open('../data/sample_docs2/' + doc_filenames[i], 'r', encoding='utf-8') as df:
+    with open('../data/sample_docs3/' + doc_filenames[i], 'r', encoding='utf-8') as df:
         doc = df.read()
         sample_docs.append(doc)
 
@@ -45,7 +45,7 @@ for ind1, doc in enumerate(sample_docs):
 
 # print(output_arr)
 df = pd.DataFrame(output_arr, index = city_country_names, columns = sample_queries)
-df.to_csv('sample_result2.csv')
+df.to_csv('sample_result3.csv')
 
 sums = df.sum(axis = 0, skipna = True)
 print(list(zip(sample_queries, sums)))

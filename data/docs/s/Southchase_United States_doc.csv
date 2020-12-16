@@ -1,0 +1,97 @@
+Google Street View is a technology featured in Google Maps and Google Earth that provides interactive panoramas from positions along many streets in the world. It was launched in 2007 in several cities in the United States, and has since expanded to include cities and rural areas worldwide. Streets with Street View imagery available are shown as blue lines on Google Maps.
+Google Street View displays panoramas of stitched images. Most photography is done by car, but some is done by tricycle, boat, snowmobile, and underwater apparatus, as well as on foot.
+
+
+== History and features ==
+
+Street View had its inception in 2001 with the Stanford CityBlock Project, a Google-sponsored Stanford University research project. The project ended in June 2006, and its technology was folded into StreetView.
+2007: Launched on May 25 in the United States using Immersive Media technology.
+2008: In May Google announces that it was testing face-blurring technology on its photos of the busy streets of Manhattan. The technology uses a computer algorithm to search Google's image database for faces and blurs them. Street View was integrated into Google Earth 4.3, the Maps application on the Apple iPhone, and the Maps application for S60 3rd Edition. In November, the drag and drop Pegman icon is introduced as the primary user interface element for connecting from Maps' 2D view into Street View's 3D view. When Pegman is dropped onto a particular set of coordinates in Google Maps for which Street View data is available, Street View opens and takes over the whole map window.
+2009: Introduction of a full-screen option. Smart Navigation was introduced allowing users to navigate around the panoramas by double-clicking with their cursor on any place or object they want to see.
+May 2011: Indoor views of businesses (Google Business Photos) were announced. After the pilot phase of several months, the project was rolled out in earnest in autumn.
+November 2012: With the release of Android 4.2, Google invites users to contribute panoramas of their own using supported devices. Google highlights user-contributed panoramas with blue circle icons on Maps. The company also created a website to highlight places in the world where one can find them.
+2013: Business interior views are shown as small orange circles. Businesses such as shops, cafés and other premises can pay a photographer to take panoramic images of the interior of their premises which are then included in Street View. Google sets up a program to let third parties borrow the Street View Trekker (a backpack-mounted camera) and contribute imagery to Google Maps.
+2014: Street-level imagery from the past can now be seen, if available for a given street view.
+2015: A partnership was announced between Street View and the environmental monitoring company Aclima. Cars began carrying sensors to detect pollutants, such as nitrogen dioxide, ozone, and particulates. In October, support for Google Cardboard was announced, allowing users to utilize Street View in 360-degree virtual reality.
+2017: Imagery inside the International Space Station is added to Street View.
+2017: Starting in August, Google allows users to create their own Street View-like blue paths, for the connected photospheres that are sufficiently close to one another.
+2017: On September 5, Google announced that they are improving the quality of the street view panoramic photo, revamping its mapping vehicles with all-new high-resolution camera systems and artificial intelligence to capture even better imagery. The new Google cars have been seen in various American cities since March 2017, as well as in Japan since August. The first images taken with the new generation of cameras were available online on September 13.
+October 2017: The makers of the Insta360 Pro announce the certification of the first "Street View auto ready" camera for US$3500; it uses six lenses for a 360º view and comes with Stitcher software. In addition to purchase, the camera rig is also available to qualified entities as part of the Google loaner program, with 50 cameras available to loan, making possible Google Street View imagery coverage of more places that Google might not visit, and to entities for whom a purchase is impractical or impossible.
+2018: Google Japan now offers the street view from a dog's perspective.
+August 2018: Street View covers two offshore gas-extraction platforms in the North Sea.
+
+
+== Implementation ==
+
+Street View is available as a component of Google Maps, as a web application, and as a mobile application for Android and iOS. Originally, Google Maps used Adobe Flash for Street View. Google overhauled Google Maps in 2013. The newer version uses JavaScript extensively and provides a JavaScript application programming interface. At the time of their release, the new Google Maps and Street View are measured slower than the old version in various setups. A user can switch to the old version of Google Maps, which is especially useful when Google Maps is more sluggish than usual.The drag-and-drop Pegman icon is the primary user interface element used by Google to connect Maps to Street View. Its name comes from its resemblance to a clothespeg. When not in use, Pegman sits atop the Google Maps zoom controls. Occasionally Pegman "dresses up" for special events or is joined by peg friends in Google Maps. When dragged into Street View near Area 51, he becomes a flying saucer. When viewing older views, the Pegman in the minimap changes to Doc Brown from Back to the Future.
+
+
+== Coverage ==
+
+Google announced in May 2017 that it had captured more than 10 million miles (16 million kilometres) of Street View imagery across 83 countries. Maps also include panoramic views taken underwater such as in West Nusa Tenggara underwater coral, in the Grand Canyon, inside museums, and Liwa Desert in United Arab Emirates which are viewed from camelback. In a ten-day trek with Apa Sherpa, Google documented Khumbu, Nepal with its Mount Everest, Sherpa communities, monasteries and schools.Google also added landmarks in Egypt, including the Pyramids of Giza, Cairo Citadel, Saqqara, Monastery of Saint Mina, and the Citadel of Qaitbay in the 9 September 2014 release.
+Many places still have limited or no coverage, including:
+
+The Caribbean – except Barbados, Puerto Rico, partial coverage in the United States Virgin Islands, Dominican Republic and Martinique
+Central America – except Guatemala and some landmarks in Costa Rica
+French Guiana, Guyana, Paraguay, Suriname and Venezuela in South America
+Africa – except Botswana, Eswatini (Swaziland), Ghana, Kenya, Lesotho, Nigeria, Réunion, Senegal, South Africa, Tunisia, Uganda and some city views in Madagascar
+Belarus, Bosnia and Herzegovina, Kosovo, Liechtenstein, Moldova and much of Germany and Austria in Europe
+Asia – except Bangladesh, Bhutan, Cambodia, Hong Kong, Japan, Macau, Malaysia, Philippines, Singapore, South Korea, Sri Lanka, Taiwan, Thailand, much of Indonesia, Kyrgyzstan, Laos, Mongolia and Russia
+The Middle East – except Israel, Jordan, Turkey and the United Arab Emirates
+The South Pacific – except American Samoa, Australia, Cook Islands (Rarotonga), Fiji (Suva) and (Nadi), French Polynesia (Tahiti), New Zealand, Pitcairn Islands (Pitcairn and Henderson Island) and Kingdom of Tonga (Tongatapu).
+
+
+== Data capturing equipment ==
+
+Cameras: Street View imagery has come from several generations of camera systems from Immersive Media [1], Point Grey Research (now FLIR Systems) [2] and developed in-house. The cameras contain no mechanical parts, including the shutter, instead using CMOS sensors and an electronic rolling shutter. Widely deployed versions are:
+R2: the earliest after Immersive Media, photos were captured with a ring of eight 11-megapixel CCD sensors with commercial photographic wide-angle lenses, cameras with the same specifications as those used for the Google Books project.
+Ladybug2 cameras (resolution 1024 x 768 pixels) by Point Grey Research.
+R5: uses a ring of eight 5-megapixel CMOS cameras by Elphel with custom low-flare lenses, plus a camera with fisheye lens on top to capture upper levels of buildings.
+R7: is the first completely in-house built camera, it uses 15 of the same sensors and lenses as R5, but no fisheye effect.
+2017: uses 8 20MP cameras. Includes two facing left and right to read street signs and business names.
+Positioning: recorded photographs must be associated with accurate positioning. This is done via a Global Positioning System, wheel speed sensor, and inertial navigation sensor data.
+Laser range scanners from Sick AG for the measuring of up to 50 meters 180° in the front of the vehicle. These are used for recording the actual dimensions of the space being photographed.
+LIDAR scanners from Velodyne were added in the 2017 update. Mounted at 45° to capture 3D depth information, and used for additional positional information.
+Air quality: In September 2018, Google announced it would integrate air quality sensors from Aclima into its global fleet of Street View vehicles.
+Vehicles: data recording equipment is usually mounted on the roof of a car. A Trike (tricycle) was developed to record pedestrian routes including Stonehenge, and other UNESCO World Heritage Sites. In 2010 a snowmobile-based system captured the 2010 Winter Olympics sites. Trolleys have been used to shoot the insides of museums, and in Venice the narrow roads were photographed with backpack-mounted cameras, and canals were photographed from boats.
+A portable backpack-mounted Google Trekker is used in outdoor terrain. For instance, the six main paths up Snowdon were mapped by the Google Trekker in 2015.
+
+
+== Privacy concerns ==
+
+Google Street View will blur houses for any user who makes a request, in addition to the automatic blurring of faces and licence plates. Privacy advocates have objected to the Google Street View, pointing to views found to show men leaving strip clubs, protesters at an abortion clinic, sunbathers in bikinis, and people engaging in activities visible from public property in which they do not wish to be seen publicly. Another concern is the height of the cameras, and in at least two countries, Japan and Switzerland, Google has had to lower the height of its cameras so as to not peer over fences and hedges. The service also allows users to flag inappropriate or sensitive imagery for Google to review and remove.Police Scotland received an apology for wasting police time in 2014 from a local business owner in Edinburgh who in 2012 had staged a fake murder for the Google camera car by lying in the road "while his colleague stood over him with a pickaxe handle". In May 2010, it was revealed that Google had collected and stored payload data from unencrypted Wi-Fi connections as part of Street View.The concerns have led to Google not providing or suspending the service in countries around the world.
+
+Austria: Google Street View was banned in Austria, because Google was found to collect Wi-Fi data without authorization in 2010. After the ban was lifted, rules were set up for how Street View can operate legally in Austria. Google resumed collecting imagery in 2017. As of 2018 Google Street View is available in select areas of Austria.
+Australia: In 2010, Google Street View ceased operations in Australia, following months of investigations from Australian authorities. However, this cessation has since ended, with Google announcing plans to continue production on May 4, 2011 and subsequently releasing updated Street View imagery for Australian towns and cities on July 27, 2011.
+Germany: In 2011, after having put online the pictures of the 20 largest cities, Google stopped taking Street View images in Germany.  However, as of mid-2020, Google's website shows numerous areas of Germany as being scheduled for coverage by Street View vehicles over the ensuing months. 
+India: In 2011, Google stopped taking street images in India, after receiving a letter from police authorities in Bangalore.
+Canada: Street View cars were spotted as early as September 2007 in Montreal. However, service for Canada was delayed while they attempted to settle with the Canadian government over its privacy laws. Privacy and town beauty concerns were dealt with and Street View is available in Montreal and other Canadian cities (as of 2016).
+
+
+== Third-party use of images ==
+Fine-art photographers have selected images for use in their own work. Although the images may be pixelated, the colours muddy, and the perspective warped, the photographs have been published in book form and exhibited in art galleries, such as the work of Jon Rafman at the Saatchi Gallery, London. In his personal appreciation of Street View material, Rafman sees images which evoke the "gritty urban life" depicted in American street photography and the images commissioned by the Farm Security Administration. He also invokes the "decisive moment" esthetic of Henri Cartier-Bresson "as if I were a photojournalist responding instantaneously to an emerging event".Michael Wolf won an honourable mention in Daily Life in the 2011 World Press Photo competition for some of his work using Google Street View.Mishka Henner was short-listed for the 2013 Deutsche Börse Photography Prize in November 2012 for his series 'No Man's Land', which depicts sex workers at rural roadside locations.Swedish programmer Anton Wallén developed a game called GeoGuessr, which places players into a Google Street View and has them guess its location.Canadian artist, Sylvia Grace Borda, worked in conjunction with John M. Lynch between 2013-14 to insert the first staged tableaux into the Google Street View engine. Their efforts won them the Lumen Prize in 2016. Borda has continued independently to author in the Google Street View engine and in 2017 created the tableaux series, the Kissing Project.
+
+
+== Gallery ==
+
+		
+		
+		
+		
+
+
+== See also ==
+List of street view services
+Apple Look Around
+Aspen Movie Map (oldest project of this type)
+Route inspection problem (algorithmic problem related to the planning of Street View car routes)
+Historypin: a user-generated archive of historical photos, videos, audio recordings and personal recollections.
+VR photography
+
+
+== References ==
+
+
+== External links ==
+Official website 
+Map of Google Street View coverage

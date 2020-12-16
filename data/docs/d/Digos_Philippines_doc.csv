@@ -1,0 +1,194 @@
+Digital Imaging Integrated Circuit (often styled as "DiG!C") is Canon Inc.'s name for a family of signal processing and control units for digital cameras and camcorders.  DIGIC units are used as image processors by Canon in its own digital imaging products. Several generations of DIGICs exist, and are distinguished by a version number suffix.
+Currently, DIGIC is implemented as an application-specific integrated circuit (ASIC) designed to perform high speed signal processing as well as the control operations in the product in which it has been incorporated.  Over its numerous generations, DIGIC has evolved from a system involving a number of discrete integrated circuits to a single chip system, many of which are based around the ARM instruction set. Custom firmware for these units has been developed to add features to the cameras.
+
+
+== Original DIGIC ==
+The original DIGIC was used on the PowerShot G3  (Sep 2002), Canon S1 IS (Mar 2004), A520 (Mar 2005), and other cameras. It consists of three separate chips: a video processing IC, an image processing IC and a camera control IC.
+
+
+== DIGIC II ==
+DIGIC II is a single chip system introduced in 2004, unlike the first DIGIC, that allowed for more compact designs.  DIGIC II also improved upon the original by adding a larger buffer and increasing processing speed.  It has been used in some advanced consumer-level cameras and many discontinued digital SLRs such as Canon EOS 5D and Canon EOS 30D.
+DIGIC II uses high-speed DDR-SDRAM, which improves startup time and AF performance. It can write to memory card at speeds up to 5.8 MB/sec.  Additionally, Canon claims DIGIC II improves color, sharpness, and automatic white balance with its CMOS sensor in its digital SLR camera line.
+
+
+== DIGIC III ==
+
+The DIGIC III Image Processor, introduced in 2006, was advertised to deliver improved image quality, faster operation and extended battery life compared to its predecessor. DIGIC III provides a faster interface to the SD memory card for the Canon PowerShot G7 and G9, SD750, SD800, SD850, SD900, SD 1000, A560, A570 IS, A590 IS, A650 IS, A720 IS, A495, EOS XS/1000D, EOS XSi/450D, EOS 40D, EOS 1D Mark III, EOS 1Ds Mark III, and S5 IS. It also provides higher resolution for their LCD screens. Additionally it has a 14-bit A to D converter providing greater bit depth than previous versions.
+
+
+=== New features ===
+DIGIC III provides face detection AF/AE, which finds and tracks up to nine faces at once and controls exposure and flash to ensure proper illumination of the faces as well as the rest of the frame, reducing the detrimental effect of overexposed or darkened faces in a photo. It reverts to the AiAF system if the subject is either not detected or not deemed to be a subject (based on the iSAPS database). The latter is useful at tourist spots where there may be many people around who are not intended to be the subject of the scene.
+
+
+=== Scene-recognition ===
+iSAPS is a scene-recognition technology developed by Canon for digital cameras. Using an internal database of thousands of different photos, iSAPS also works with the DIGIC III Image Processor to improve focus speed and accuracy, as well as exposure and white balance.
+
+
+=== Dual DIGIC III ===
+The Canon EOS-1D Mark III uses dual DIGIC III processors to achieve a capture rate of 10 frames per second at 10.1 MP (with a maximum burst of 110 JPEG images, depending on the speed of the attached storage). The Canon EOS-1Ds Mark III also uses dual DIGIC III processors to achieve a capture rate of five frames per second at 21.1 MP.
+
+
+== DIGIC 4 ==
+
+In 2008, Canon introduced the DIGIC 4 processor, used by the EOS 1100D/Rebel T3, EOS 500D/Rebel T1i, EOS 550D/Rebel T2i, EOS 600D/Rebel T3i, EOS 50D, EOS 60D, EOS 1200D/Rebel T5, EOS 5D Mark II and EOS-1D X (for metering and AF only). It is also used in newer cameras in Canon's PowerShot lines (A, D, G, S, SD, and SX).
+Canon claims improvements such as:
+
+Much faster image processing when compared to previous processors
+Improved noise reduction in high-ISO images
+Improved performance while handling larger 14-bit RAW images
+Live Face Detection AF during Live View
+H.264 1080p encoding.
+
+
+=== Dual DIGIC 4 ===
+Dual DIGIC 4 processors are used in the EOS 7D and EOS-1D Mark IV.
+
+
+=== DIGIC 4+ ===
+This CPU was introduced in 2014 to replace the DIGIC 5 on mid-range compact cameras, particularly the Elph/IXUS and SX series. Full specifications were not made available at introduction, but Canon claims a 60% speed bump over the original DIGIC 4.
+
+
+== DIGIC 5 ==
+
+In 2011, Canon introduced the DIGIC 5. It is featured on Canon compact cameras like PowerShot SX40 HS to achieve a capture rate of 10.3 frames per second at full resolution in High-Speed Burst HQ, Full HD 1080p Videos and Intelligent Image Stabilization. Canon claims the new DIGIC 5 processor is six times faster than the DIGIC 4 processor and efficiently manages the increase in scene information and simultaneously reduces the appearance of image noise by up to 75%. According to Canon, DIGIC 5 analyses four times more image information to create each pixel, recording more detail and colour from a scene than ever before.
+DIGIC 5 was co-designed with Texas Instruments (TI) and manufactured by TI through foundry partnership in Asia using 45 nm node technology fanned out by TI.DIGIC 5 Is used in the EOS 650D/Rebel T4i/Kiss X6i, EOS 700D/Rebel T5i/Kiss X7i, Canon EOS M, and EOS 100D/Rebel SL1/Kiss X7, as well as PowerShot cameras such as the Canon PowerShot N, S100, S110, G15 and Canon PowerShot SX50 HS.
+
+
+=== DIGIC 5+ ===
+DIGIC 5+ is an enhancement to the DIGIC 5 and DIGIC 4.  The performance is said to be 17x the performance of the DIGIC 4. The additional processing power allows for higher frame rate in continuous shooting (burst) modes, and greater noise correction through the use of signal processing.
+DIGIC 5+ is used in the EOS-1D X, EOS 6D, EOS 5D Mark III and the EOS 70D.
+
+
+=== Dual DIGIC 5+ ===
+The EOS-1D X includes dual DIGIC 5+ processors, allowing for a capture rate of 12 frames per second in RAW + JPEG, and an additional DIGIC 4 processor specifically for its Intelligent Subject Analysis System.
+
+
+== DIGIC 6 ==
+Introduced in 2013, the DIGIC 6 image processor enables improved low-light performance up to ISO 6400, with reduced noise. In addition, it enables improved AF times and reduced lag over previous models. The improved performance allows for shots at up to 14 fps.
+Further advancements attributed to DIGIC 6 can be experienced in movie mode, which records in MP4 format and doubles the frame-rate to 60 fps at 1080p. It also features reduced noise at 30 fps and improved image stabilization.DIGIC 6 is used in EOS 750D/Rebel T6i, EOS 760D/Rebel T6s, EOS 80D, PowerShot G16, PowerShot N100, PowerShot S120, PowerShot SX270 HS, PowerShot SX280 HS, PowerShot SX60 HS, PowerShot SX700 HS, PowerShot SX710 HS and PowerShot SX720 HS.
+In February 2014, Canon also released the compact Canon PowerShot G1 X Mark II. They released their newest compact mirrorless Canon EOS M3 in February 2015 and the Canon EOS M10 in October 2015, both also utilize internal WLAN 802.11b/g/n.
+
+
+=== Dual DIGIC 6 ===
+The Canon EOS 7D Mark II includes dual DIGIC 6 processors, allowing for a capture rate of 10 frames per second in RAW + JPEG, and an additional DIGIC 6 processor specifically for its Intelligent Subject Analysis System. The Canon EOS 5DS and EOS 5DS R also use dual DIGIC 6 processors, with the capability to shoot up to five 50.6MP frames per second.
+
+
+=== DIGIC 6+ ===
+The Canon EOS 5D Mark IV includes a DIGIC 6+ processor.
+
+
+=== Dual DIGIC 6+ ===
+The Canon EOS-1D X Mark II includes dual DIGIC 6+ processors, allowing for a capture rate of 170 consecutive RAW images at 14 fps or 4k Video with up to 60 fps.
+
+
+== DIGIC 7 ==
+Introduced in 2016, the Canon PowerShot G7 X Mark II was the first Canon camera to include the DIGIC 7 processor. The following cameras also using this processor: The mirrorless interchangeable lens camera, Canon EOS M5, introduced 2016. The Canon EOS 77D and Canon EOS 800D, introduced in February 2017. Announced in February 2017, the Canon EOS M6 the same. The Canon EOS 6D Mark II released in July 2017. The Canon EOS 200D, known as the EOS Rebel SL2 in the Americas and EOS Kiss X8 in Japan, released in July 2017. Currently last in this series is the Canon EOS M100, released in August 2017.
+
+
+== DIGIC 8 ==
+The DIGIC 8 was introduced together with the Canon EOS M50 in February 2018. It can process 4k videos with up to 30 fps using MPEG-4 AVC/H.264 compression. Cameras using this processor include:
+
+The EOS M50, a crop-sensor (APS-C) mirrorless camera in Canon M series lineup introduced in February 2018. It is the first camera with DIGIC 8 processor.
+The EOS R, the first full-frame mirrorless camera from Canon, introduced in October 2018.
+It was also introduced with the Canon SX740HS and SX 70 HS SX70 HS cameras in 2018.
+The EOS RP, introduced in February 2019.
+The Canon EOS 250D, also called Canon EOS Rebel SL3, announced April 10, 2019, also uses the DIGIC 8.
+The Canon G7 X Mark III and Canon G5 X Mark II, both introduced in July 2019.
+The Canon EOS 90D and the Canon EOS M6 Mark II, both introduced in August 2019.
+The Canon EOS 850D announced February 2020.
+
+
+== DIGIC X ==
+The DIGIC X was introduced together with the 1D X Mark III in February 2020. It can process 4k videos with up to 120fps (8k videos up to 30fps on EOS R5). The new performance and image quality-based improvements include:
+Improved noise-reduction processing.
+Sharpness-based image processing.
+Dedicated sections ("blocks") of the processor for specific Dual Pixel CMOS AF tasks, and for subject detection (including the new Head Detection AF, and AF tracking capabilities for both viewfinder and Live View shooting).
+Image processing performance up to approximately 3.1× faster than two DIGIC 6+ processors.
+Continuous processing speeds up to approximately 380× faster than two DIGIC 6+ processors.
+A significant reduction in power consumption against previous Dual DIGIC 6+ processors.Cameras using this processor include:
+
+The Canon EOS R5 and the Canon EOS R6, both introduced in July 2020.
+
+
+== DIGIC DV ==
+The DIGIC DV is used in Canon's single-chip CCD digital camcorders as well as the DC20 and DC40 DVD camcorders.
+
+
+== DIGIC DV II ==
+The DIGIC DV II utilizes a hybrid noise reduction system and a new gamma system. The processor is used in all of Canon's high-definition camcorders and, with the exception of the DC20 and DC40, all of their DVD camcorders including the new SD camcorders FS100, FS10, FS11.
+
+
+== DIGIC DV III ==
+The DIGIC DV III processor is used in the Legria (PAL)/Vixia (NTSC) high-definition HFS100, HFS10, HF200 and HF20.
+The Digic DV III has also been incorporated into Cinema EOS line of digital cinema camera, commencing with the C300 in late 2011.
+
+
+== DIGIC DV 4 ==
+The DIGIC DV 4 processor was introduced in 2013 in the Vixia/Legria G, R, and Mini series camcorders, as well as that year's XA-20 and -25 professional camcorders. Canon claims it is capable of recording simultaneous MP4 and AVCHD video streams.
+
+
+== DIGIC DV 5 ==
+The DIGIC DV 5 first seen in the Canon XC10 and the Canon EOS C300 Mark II, which both were announced on 8 April 2015 right before the NAB Show. The XC10 uses a single DIGIC DV 5, while the C300 Mark II uses a dual DIGIC DV 5 implementation. Both are capable of 4k at 24, 25 and 30fps with 4:2:2 colour sampling in the XF-AVC H.264 codec. The DV 5 also allowed for a much more advanced and intuitive GUI.
+
+
+== DIGIC DV 6 ==
+The DIGIC DV 6 is used at the Canon EOS C200, which were announced on May 31, 2017. The C200 uses a dual DIGIC DV 6 implementation. It is capable of 4k up to 60fps.
+
+
+== DIGIC DV 7 ==
+The DIGIC DV 7 is used at the Canon EOS C500 Mark II, which were announced on September 5, 2019. The 300 mark II uses a DIGIC DV 7 implementation. It is capable of 4k up to 60fps when recording in XF-AVC 4:2:2 10-Bit, 5952 x 3140 up to 60fps when recording in Cinema RAW Light 10-Bit, 12-Bit and 120fps at 2k.
+
+
+== Custom firmware ==
+
+The DIGIC board contains an x86 compatible processor (NEC V30 emulation) running Datalight ROM-DOS and only S1IS running VxWorks and two other chips (the image processor itself and a Motorola 68HC12).The DIGIC II and DIGIC III ASICs contain embedded 32-bit processors based on the ARM instruction set. Until around 2007, Canon point-and-shoot cameras ran a VxWorks-based operating system, but recent cameras are based on the DRYOS operating system developed in-house by Canon.
+
+
+=== CHDK ===
+The free software Canon Hack Development Kit (CHDK) project, started by Andrey Gratchev, has successfully enhanced many Canon PowerShot cameras without replacing the stock firmware. It allows programmatic control of many Canon compact cameras, enabling users to add features, including games and scripts written in UBASIC or Lua. Features include shooting in RAW, USB-cable remote shutter-release, synchronized shooting between multiple cameras, motion-detection triggered photography, customizable high-speed continuous (burst) TV, Av, ISO, and Focus bracketing (increasing depth of field), 1 Gig video-size limit removed in earlier cameras, Shutter, Aperture, and ISO overrides (shutter speeds of 64" to 1/10,000" and higher).For the CHDK project to augment or extend firmware, it was necessary to obtain copies of the cameras' original firmware; in some cases this can be done via a pure software method, while others rely on a method of using a blinking LED on the camera as an optical serial port to transmit the firmware to a host computer.However, to install precompiled firmware on a PowerShot camera, it is only necessary to download the correct binary and copy it to an SD memory card. If the SD card is set to lock and the boot flag is enabled when the camera is turned on, the camera will autoboot from the binary file on the card and CHDK will be loaded into the camera's RAM. If the card is unlocked or removed, the camera will start up in the original Canon firmware. CHDK will mask the lock on the SD card so that the camera will still write to it however. Alternatively, CHDK can be loaded manually from the Canon menu.
+
+
+=== 400plus ===
+400plus is a free firmware add-on which offers additional functionality for Canon 400D in a non-destructive and non-permanent way.
+
+
+=== Spy Lantern ===
+Spy Lantern is a surveillance camera commercial project based on PowerShot and CHDK open script.
+
+
+=== Magic Lantern ===
+
+Magic Lantern is a firmware add-on written for the Canon 5D Mark II by Trammell Hudson in 2009, and ported to the 550D/T2i/Kiss X4 (1.0.8) in July 2010 by the same author. Starting September 2010, A1ex from CHDK forum and other people ported this add-on to the 550D/T2i (1.0.9), 60D, 500D/T1i/Kiss X3, 600D/T3i/Kiss X5 (1.0.1) and 50D; It also runs on the 7D. The firmware is released under the GNU General Public License. Originally developed for DSLR filmmaking, its feature base has expanded to include tools useful for still photography as well.Current features include:
+
+Audio controls, on-screen audio meter, audio monitoring via A/V cable
+HDR video, bitrate control, FPS control, auto-restart
+Precise ISO, White Balance, and Shutter Speed controls
+Zebras, false colour, histogram, waveform, spot meter, vectorscope
+Focus peaking, 'magic zoom', trap focus, rack focus, follow focus
+Automatic Exposure Bracketing, focus stacking
+Intervalometer, bulb ramping, bulb timer (up to 8 hours)
+Custom cropmarks/on-screen graphics
+On-screen focus and DOF info, CMOS temperature, clock
+Customizable menus
+14 bit RAW Video on some DSLRsPlanned future features include clean HDMI output, anamorphic preview, and custom curves. 
+Because installing Magic Lantern does not replace the stock Canon firmware or modify the ROM but rather runs alongside it, it is both easy to remove and carries little risk. Canon has not made any official statements regarding the add-on firmware, either on the subject of warranty or on the features.
+
+
+== See also ==
+Nikon EXPEED
+Sony BIONZ
+Texas Instruments DaVinci
+
+
+== References ==
+
+
+== External links ==
+
+
+=== CHDK and Magic Lantern ===
+CHDK project at Wikia
+CHDK Autobuild
+Wayner, Peter (26 May 2010). "Tweaking a Camera to Suit a Hobby". The New York Times.
+Official Magic Lantern Website
+SDM, StereoData Maker, a 'light-weight' variant of CHDK.

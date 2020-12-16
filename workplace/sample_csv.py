@@ -4,11 +4,11 @@ import csv
 import os
 
 basic_path = '../data/docs/'
-sample_path = '../data/sample_docs2/'
+sample_path = '../data/sample_docs3/'
 file_size_thres = 5120
 
 
-def random_sample_files(total_size, target_sample_size=300):
+def random_sample_files(total_size, target_sample_size=20):
     is_finished = False
     num_sampled = 0
     while True:
@@ -31,7 +31,7 @@ def random_sample_files(total_size, target_sample_size=300):
         if is_finished:
             break
 
-random_sample_files(total_size=20970, target_sample_size=300)
+random_sample_files(total_size=20970, target_sample_size=20)
 
 
 
